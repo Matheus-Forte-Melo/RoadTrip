@@ -1,4 +1,4 @@
-from src.auto.car import Car
+from src.car import Car
 
 
 def test_brake_acelleration(brake, accel):
