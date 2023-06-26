@@ -2,7 +2,6 @@ from src.interface import gui, submenus
 from src import util
 from src.logic.car_controls import car
 
-
 while True:
     if car.crash:
         break
@@ -21,8 +20,3 @@ while True:
         break
     else:
         print('Please input a valid option!')
-
-
-
-
-
